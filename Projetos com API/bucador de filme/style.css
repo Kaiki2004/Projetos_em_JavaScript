@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #000;
+}
+#container {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+}
+
+#informacoes {
+    display: inline-block;
+    margin: 30px;
+    width: 300px;
+    margin-top: 20px;
+
+}
+
+label {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+#card {
+    float: right;
+    margin-top: 65px;
+    margin-right: 400px;
+    height: 500px;
+    width: 300px;
+}
+
+#card #Poster{
+    height: 350px;
+}
+
+#card h1{
+    margin-right: 80px;
+}
+
+#topo{
+    height: 80px;
+    background: #20B2AA;
+
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+}
+
+#brand{
+    display: inline-flex;
+    margin-top: 15px;
+    margin-left: 500px;
+}
+
+#busca{
+    display: flex;
+    padding: 10px;
+    background-color: #008B8B;
+
+}
+
+.busca_filme{
+    display: flex;
+    height: 30px;
+    margin: 10px;
+}
+
+textarea{
+    height: 130px;
+    max-height: 160px;
+}
+
+
+#rodape{
+    clear: both;
+    padding: 10px;
+    background-color: #000;
+    text-align: center;
+}
+
+#rodape span{
+    padding: 10px;
+}
